@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>6288089 Sec1 Q1</title>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+
+            <!--ติดที่labelกับbirthday-->
+
+            <legend>
+                <h1>Registration</h1>
+            </legend>
+            <label for="txtStudentID">Student ID</label><br>
+            <input type="text" id="txtStudentID" pattern="[0-9]{7}"><br>
+
+            <label for="txtFName">First name</label><br>
+            <input type="text" id="txtFName" pattern="[A-Za-z]{2,}"><br>
+
+            <label for="txtLName">Last name</label>
+            <input type="text" id="txtLName" pattern="[A-Za-z]{2,}"><br>
+
+            <label for="cldBD">Birthday</label>
+            <input type="date" id="cldBD" min="2000-01-01" max="2021-01-29"><br>
+
+            <label for="radGender">Gender: </label>
+            <input type="radio" name="radGender" value="IDK">IDK
+            <input type="radio" name="radGender" value="Female">Female
+            <input type="radio" name="radGender" value="Male">Male<br>
+
+            <label for="chHobbies">Hobbies: </label><br>
+            <input type="checkbox" name="chHobbies" value="Basketball">Basketball
+            <input type="checkbox" name="chHobbies" value="Football">Football
+            <input type="checkbox" name="chHobbies" value="Programming">Programming<br>
+            <input type="checkbox" name="chHobbies" value="Photography">Photography
+            <input type="checkbox" name="chHobbies" value="Gaming">Gaming<br><br>
+
+            <button type="submit">Submit</button>
+            <button type="reset">Clear</button>
+        </fieldset>
+    </form>
+</body>
+
+
+</html>
