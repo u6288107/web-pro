@@ -1,0 +1,16 @@
+{
+    "name": "6288107_sec2_q2",
+    "version": "1.0.0",
+    "description": "",
+    "main": "6288107_sec2_q2.js",
+    "scripts": {
+        "start": "nodemon 6288107_sec2_q2.js"
+
+    },
+    "author": "Pongsakorn Piboonpongpun, Section 2, 6288107",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.17.1",
+        "nodemon": "^2.0.7"
+    }
+}
